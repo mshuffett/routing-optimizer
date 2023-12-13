@@ -1,0 +1,42 @@
+Index: optimizer/src/phocus/cp/cp_app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- optimizer/src/phocus/cp/cp_app.py	(date 1539734849000)
++++ optimizer/src/phocus/cp/cp_app.py	(date 1539906792000)
+@@ -8,6 +8,7 @@
+ import numpy as np
+ import pendulum
+ from ortools.constraint_solver import pywrapcp, routing_enums_pb2
++from ortools.constraint_solver.pywrapcp import RoutingDimension
+ 
+ import phocus.errors
+ from phocus.config import MIP_CONFIG
+@@ -206,6 +207,9 @@
+         self.routing_model.AddVariableMinimizedByFinalizer(
+             self.routing_model.CumulVar(self.routing_model.End(0), TIME))
+ 
++        self.time: RoutingDimension = self.routing_model.GetDimensionOrDie('Time')
++        self.time.SetGlobalSpanCostCoefficient(1)
++
+         self.duplicate_origin_indices = [node for node in range(len(self.locations) - len(self.work_periods), len(self.locations))]
+ 
+         self._add_all_blackouts()
+@@ -317,12 +321,15 @@
+     def _add_disjunction(self):
+         self.log.info('Adding disjunctions')
+         origin_location = self.locations[0]
+-        penalty = 100000
++        base_penalty = self.distance_matrix.max() * 5
++        # base_penalty = 100000
+         repeat_nodes = self._nodes_involved_in_repeats()
+         for node, location in enumerate(self.locations):
+             if location.is_same_doctor(origin_location) or location in {app.location for app in self.appointments} or node in repeat_nodes:
+                 self.routing_model.AddDisjunction([node], 100000000)
+             else:
++                multiplier = getattr(location, 'skip_cost_multiplier', 1)
++                penalty = int(multiplier * base_penalty)
+                 self.routing_model.AddDisjunction([node], penalty)
+ 
+     def _route_iter(self):

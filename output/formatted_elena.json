@@ -1,0 +1,929 @@
+[
+    {
+        "doctor_name": "Elena",
+        "address": "900 Madison St",
+        "city": "Hewlett Neck",
+        "state": "NY",
+        "lat": 40.624505,
+        "lon": -73.697592,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Moriarty/Michelle",
+        "address": "755 New York Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.86010419999999,
+        "lon": -73.4206811,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Leo",
+        "address": "66 Harned Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.84103,
+        "lon": -73.2801126,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Andrianova Marina",
+        "address": "400 W Main St ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6918474,
+        "lon": -73.3346439,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Spain",
+        "address": "5500 Merrick Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6687057,
+        "lon": -73.4341853,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Weissberg",
+        "address": "379 Oakwood Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8401925,
+        "lon": -73.4302452,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "jenna Larocca",
+        "address": "500 W Main St Ste 116",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7250986,
+        "lon": -73.2453946,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Cappellino",
+        "address": "60 Fleets Point Dr",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6865853,
+        "lon": -73.3404683,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Jeffrey Perry",
+        "address": "2033 Deer Park Ave ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7687788,
+        "lon": -73.3318443,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Erica Papathomas",
+        "address": "2791 Jerusalem Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6919067,
+        "lon": -73.5289602,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Krishnan, Raj",
+        "address": "1092 W Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8465084,
+        "lon": -73.2586815,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Benatar, David",
+        "address": "2103 Deer Park Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7731632,
+        "lon": -73.3336763,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Morrison *",
+        "address": "5500 Merrick Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6687057,
+        "lon": -73.4341853,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Nambiar, Seema",
+        "address": "2171 Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8439215,
+        "lon": -73.2849373,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Blau",
+        "address": "566 Broadway ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6806563,
+        "lon": -73.4742914,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "James Penna/Jennifer",
+        "address": "14 Technology Drive",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.9256538,
+        "lon": -73.1409429,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Rizzi",
+        "address": "500 commack",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.822196,
+        "lon": -73.2914924,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Barbara Somers",
+        "address": "500 W Main St Ste 116",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6881628,
+        "lon": -73.3390379,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Chernoff ",
+        "address": "2500 Nesconset Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8806821,
+        "lon": -73.1158489,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Ruffo",
+        "address": "46 Little East Neck Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6943168,
+        "lon": -73.3346011,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Dorman Christine",
+        "address": "1 Kings Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8256536,
+        "lon": -73.2026138,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Tan",
+        "address": "222 E Main St Ste 312",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.855619,
+        "lon": -73.1842133,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Melissa Nocella-Thakkar",
+        "address": "290 E Main St Ste 700",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.854413,
+        "lon": -73.1763588,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Condreras Susan",
+        "address": "379 Oakwood Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8401925,
+        "lon": -73.4302452,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Frendo ",
+        "address": "763 Larkfield Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8377164,
+        "lon": -73.31192589999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Tavroff",
+        "address": "801 Walt Whitman Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8018254,
+        "lon": -73.41255679999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Carpentieri Adam",
+        "address": "119 New York Ave ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.678531,
+        "lon": -73.46954,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Vuong",
+        "address": "500 W Main St Ste 110",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6881628,
+        "lon": -73.3390379,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Robin Kammerer",
+        "address": "290 E Main ST Ste 312",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.854413,
+        "lon": -73.1763588,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Alan Weisman",
+        "address": "554 Larkfield Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8590719,
+        "lon": -73.31996629999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Stubel",
+        "address": "1 Kings Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8157712,
+        "lon": -73.2185693,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Emily Malinowski",
+        "address": "500 W Main St Ste 116",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6881628,
+        "lon": -73.3390379,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Faisal, Malik ",
+        "address": "100 W Main St",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6957062,
+        "lon": -73.3247018,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Aloni",
+        "address": "206 E Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8280128,
+        "lon": -73.4018798,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Hussain Mohammad",
+        "address": "317 Broadway Ste B",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6789893,
+        "lon": -73.4170673,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Martin Schick",
+        "address": "1059 Bellmore Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6953651,
+        "lon": -73.5333553,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Bianco, Roberta",
+        "address": "515 Route 111 ste 101",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8279652,
+        "lon": -73.19829179999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Albert, Sunil",
+        "address": "100 W Main St",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6957062,
+        "lon": -73.3247018,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Coleen Schneider",
+        "address": "4200 Sunrise Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6750453,
+        "lon": -73.4781891,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Modi ",
+        "address": "789 Park Ave Ste 202",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.857186,
+        "lon": -73.39518699999999,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Alpert Scott",
+        "address": "379 Oakwood Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8401925,
+        "lon": -73.4302452,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Linda Deleo NP",
+        "address": "868 Hicksville Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6896657,
+        "lon": -73.47725919999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Anne McGrath",
+        "address": "2500 Nesconset Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8806821,
+        "lon": -73.1158489,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Makarovsky, Ilya",
+        "address": "1648 Newbridge Rd ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6820976,
+        "lon": -73.54009479999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Charles Brogan",
+        "address": "1092 W Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8465084,
+        "lon": -73.2586815,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Dascalu",
+        "address": "500 W Main St Ste 110",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6881628,
+        "lon": -73.3390379,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Morrison *",
+        "address": "2103 Deer Park Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7731632,
+        "lon": -73.3336763,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Waxman Larry",
+        "address": "5500 Merrick Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6687057,
+        "lon": -73.4341853,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Alejo",
+        "address": "12 unqua Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6671011,
+        "lon": -73.4394393,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Morgan Smyth",
+        "address": "2500 Nesconset Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8806821,
+        "lon": -73.1158489,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Alison Graziano",
+        "address": "1648 Newbridge Rd ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6820976,
+        "lon": -73.54009479999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Digiovanna, Michael",
+        "address": "1061 N  Broadway",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.71065,
+        "lon": -73.461415,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Ramsammy",
+        "address": "53 West Merrick Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6538812,
+        "lon": -73.5825685,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Cipolla Thomas",
+        "address": "350 W Montauk Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.675106,
+        "lon": -73.3722765,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Polofsky/Shane",
+        "address": "221 Broadway Ste 207",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6789893,
+        "lon": -73.4170673,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Rachael O'Mara",
+        "address": "4200 Sunrise Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6750453,
+        "lon": -73.4781891,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Jacob",
+        "address": "66 Harned Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.84103,
+        "lon": -73.2801126,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Johnson, Sara",
+        "address": "1888 Walt Whitman Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.76737749999999,
+        "lon": -73.4250457,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Epstein",
+        "address": "801 Walt Whitman Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8018254,
+        "lon": -73.41255679999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Kalmar, Mat",
+        "address": "62 Green St",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.86854049999999,
+        "lon": -73.427804,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Raza, Yanira",
+        "address": "6080 Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.841294,
+        "lon": -73.3051692,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Leon",
+        "address": "801 Walt Whitman Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8018254,
+        "lon": -73.41255679999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Quraishi",
+        "address": "206 E Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8280128,
+        "lon": -73.4018798,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Spain",
+        "address": "2103 Deer Park Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7731632,
+        "lon": -73.3336763,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Burducea",
+        "address": "12 unqua Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6671011,
+        "lon": -73.4394393,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Fox, Corey",
+        "address": "4160 Merrick Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.666448,
+        "lon": -73.4791704,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Finuoli ",
+        "address": "1092 W Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8465084,
+        "lon": -73.2586815,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Sanzar Muhhamad",
+        "address": "763 Larkfield Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8377164,
+        "lon": -73.31192589999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Ellis Merlan",
+        "address": "1648 Newbridge Rd ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6820976,
+        "lon": -73.54009479999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Muhlrad, Jeffrey",
+        "address": "500 Commack Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.822196,
+        "lon": -73.2914924,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Heinisch",
+        "address": "400 Montauk Hwy Suite 108",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6963585,
+        "lon": -73.3141179,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Jasjit Singh",
+        "address": "60 Louden Ave ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6789893,
+        "lon": -73.4170673,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Moros",
+        "address": "1092 W Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8465084,
+        "lon": -73.2586815,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Ednalino",
+        "address": "734 Park Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8602192,
+        "lon": -73.3964632,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Stephanie, Agguire",
+        "address": "8 Saxon Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7250986,
+        "lon": -73.2453946,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Collin ",
+        "address": "900 Straight Path",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7223993,
+        "lon": -73.3775683,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Wani",
+        "address": "2500 Nesconset Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8806821,
+        "lon": -73.1158489,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Cruickshank",
+        "address": "500 Commack Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.822196,
+        "lon": -73.2914924,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Scarpinatto",
+        "address": "1800 Walt Whitamn Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7701593,
+        "lon": -73.4268936,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Thomas Jan",
+        "address": "4200 Sunrise Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6806563,
+        "lon": -73.4742914,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Plavnik",
+        "address": "100 W Oak St",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6789893,
+        "lon": -73.4170673,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Austriacu",
+        "address": "170 Little East Neck Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.69797639999999,
+        "lon": -73.3383909,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Karen Olivieri",
+        "address": "325 Park Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.897834,
+        "lon": -73.345775,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Hernandez",
+        "address": "2500 Nesconset Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8806821,
+        "lon": -73.1158489,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Godhwani, Sanjay",
+        "address": "6144 Route 25A Ste 13",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.9453625,
+        "lon": -72.833666,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Beechel, Christine",
+        "address": "1 Kings Hwy",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8157712,
+        "lon": -73.2185693,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Robert, McCord",
+        "address": "206 E Jericho Tpke",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8534318,
+        "lon": -73.4115091,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Gustavson Leah",
+        "address": "763 Larkfield Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8377164,
+        "lon": -73.31192589999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Paci",
+        "address": "500 Commack",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.822196,
+        "lon": -73.2914924,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Kalmar, Robert",
+        "address": "62 Green St",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.86854049999999,
+        "lon": -73.427804,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Benhuri ",
+        "address": "1025 N Broadway",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.708596,
+        "lon": -73.461336,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Ruotolo Charles",
+        "address": "2103 Deer Park Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7731632,
+        "lon": -73.3336763,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Schulman",
+        "address": "315 E Main ST ",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8556567,
+        "lon": -73.174695,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Yagoot, Khan",
+        "address": "734 Park Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8681539,
+        "lon": -73.425676,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Paci James",
+        "address": "14 Tech Drive #11",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.9256538,
+        "lon": -73.1409429,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Abraham",
+        "address": "60 Fleets Point Dr",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6865853,
+        "lon": -73.3404683,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Juan Goez",
+        "address": "2428 Merrick Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6615372,
+        "lon": -73.5356631,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Yadira, Pena",
+        "address": "8 Saxon Ave",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.7250986,
+        "lon": -73.2453946,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Feldman",
+        "address": "33 Walt Whitman Rd Ste 104",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.8298998,
+        "lon": -73.4120396,
+        "is_repeat": true
+    },
+    {
+        "doctor_name": "Fabregas Troy",
+        "address": "868 Hicksville Rd",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6896657,
+        "lon": -73.47725919999999,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Gruber/craig",
+        "address": "500 W Main St Ste 110",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.6881628,
+        "lon": -73.3390379,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Jane Thitima Herfel",
+        "address": "14 Tech Drive",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.9256538,
+        "lon": -73.1409429,
+        "is_repeat": false
+    },
+    {
+        "doctor_name": "Rizzi Angelo",
+        "address": "14 Tech Drive #11",
+        "city": "Long Island",
+        "state": "NY",
+        "lat": 40.9256538,
+        "lon": -73.1409429,
+        "is_repeat": true
+    }
+]

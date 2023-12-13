@@ -1,0 +1,23 @@
+2018-09-20 23:13:59,764 - werkzeug - INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2018-09-20 23:14:08,411 - app - INFO - Plan Route called with {'distances': [{'destId': 'start', 'distance': 0, 'originId': 'start'}, {'destId': 'start', 'distance': 10, 'originId': 'loc-1'}, {'destId': 'loc-1', 'distance': 10, 'originId': 'start'}, {'destId': 'loc-1', 'distance': 0, 'originId': 'loc-1'}], 'locations': [{'address': '379 Oakwood Rd, Huntington Station, New York', 'lat': 40.8401718, 'lon': -73.4302677, 'name': 'Susan Condreras', 'openTimes': [{'start': 1514797200000, 'end': 1514998800000}], 'id': 'loc-1'}], 'lunchMinutes': 60, 'lunchStartHour': 12, 'maxRunMillis': 1000, 'serviceTimeMinutes': 20, 'solutionName': "Rep Carl's Solution", 'startLocation': {'address': '900 Madison St, Hewlett Neck, NY', 'lat': 40.624505, 'lon': -73.697592, 'name': 'Rep Name', 'id': 'start'}, 'workPeriods': [{'start': 1514797200000, 'end': 1514826000000}]}
+2018-09-20 23:14:08,419 - phocus.cp.cp_app.CP - INFO - Initializing CP
+2018-09-20 23:14:08,419 - phocus.cp.cp_app.CP - INFO - Work Periods: [<Period [2018-01-01T09:00:00+00:00 -> 2018-01-01T17:00:00+00:00]>]
+2018-09-20 23:14:08,420 - phocus.cp.cp_app.CP - INFO - Time off periods: []
+2018-09-20 23:14:08,420 - phocus.cp.cp_app.CP - INFO - 1 doctors
+2018-09-20 23:14:08,420 - phocus.cp.cp_app.CP - INFO - Number of work periods: 1
+2018-09-20 23:14:08,420 - phocus.cp.cp_app.CP - INFO - Start datetime 2018-01-01T09:00:00+00:00
+2018-09-20 23:14:08,421 - phocus.cp.cp_app.CP - INFO - End datetime 2018-01-01T17:00:00+00:00
+2018-09-20 23:14:08,421 - phocus.cp.cp_app.CP - INFO - 3 locations with duplicates
+2018-09-20 23:14:08,421 - phocus.cp.cp_app.CP - INFO - Specifying model with 3 locations and 1 vehicles
+2018-09-20 23:14:08,425 - phocus.cp.cp_app.CP - INFO - Adding global blackouts: [<Period [2018-01-01T11:40:00+00:00 -> 2018-01-01T12:40:00+00:00]>]
+2018-09-20 23:14:08,425 - phocus.cp.cp_app.CP - INFO - Adding origin constraint: 2018-01-01T17:00:00+00:00 offset 28800 for node 2 <Location: Rep Name>
+2018-09-20 23:14:08,426 - phocus.cp.cp_app.CP - INFO - Adding end node constraint to node: 3
+2018-09-20 23:14:08,426 - phocus.cp.cp_app.CP - INFO - No appointments
+2018-09-20 23:14:08,426 - phocus.cp.cp_app.CP - INFO - Adding repeat visit constraints
+2018-09-20 23:14:08,426 - phocus.cp.cp_app.CP - INFO - Adding disjunctions
+2018-09-20 23:14:08,426 - phocus.cp.cp_app.CP - INFO - Getting assignment
+2018-09-20 23:14:09,427 - phocus.cp.cp_app.CP - INFO - 1 out of 1 doctors visited
+2018-09-20 23:14:09,427 - phocus.cp.cp_app.CP - INFO - Route 0: 0 Time(0, 0) ->  1 Time(10, 27590) ->  2 Time(28800, 28800) ->  0 Time(28800, 28800) -> 
+2018-09-20 23:14:09,427 - phocus.cp.cp_app.CP - INFO - {'num_work_periods': 1, 'first_solution_strategy': 'parallel_cheapest_insertion', 'doctors_visited': 1, 'candidate_doctors': 1, 'travel_time': 20, 'avg_travel_time': 20.0}
+2018-09-20 23:14:09,428 - phocus.cp.solution_validator.SolutionValidator - INFO - Validation passed
+2018-09-20 23:14:09,433 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2018 23:14:09] "POST /planRoute HTTP/1.1" 500 -

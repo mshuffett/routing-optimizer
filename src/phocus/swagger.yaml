@@ -1,0 +1,245 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "Phocus Route Planner"
+  contact:
+    email: "team@quantcollective.com"
+
+host: "{{ host }}"
+schemes:
+  - https
+
+tags:
+- name: "Plan Route"
+  description: "Generate a route for the given doctors"
+
+paths:
+  /:
+    get:
+      description: "Empty index for health check"
+      operationId: "app.index"
+      responses:
+        200:
+          description: "Successful ping"
+          schema:
+            description: "ok"
+            type: string
+            example: "ok"
+  /planRoute:
+    post:
+      tags:
+      - "Plan Route"
+      summary: "Plan a new route"
+      operationId: "app.plan_route"
+      parameters:
+        - in: body
+          name: routeParams
+          required: true
+          schema:
+            $ref: "#/definitions/RouteParams"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/RouteResult"
+        400:
+          description: "Invalid status value"
+        405:
+          description: "Invalid input"
+definitions:
+  Location:
+    type: "object"
+    description: "An HCP location. If both lat and lon and address are given then lat and lon are honored. At least lat and lon or address are required."
+    additionalProperties: true
+    required:
+      - "name"
+      - "id"
+    properties:
+      id:
+        type: "string"
+        description: "A unique identifier for the location"
+      name:
+        type: "string"
+        description: "A human readable name for the location"
+        example: "Susan Condreras"
+      lat:
+        type: "number"
+        format: "float"
+        example: 40.8401718
+      lon:
+        type: "number"
+        format: "float"
+        example: -73.4302677
+      address:
+        type: "string"
+        description: "Address as used by postal service"
+        example: "379 Oakwood Rd, Huntington Station, New York"
+      openTimes:
+        type: "array"
+        description: "A list of the open times for the HCP location"
+        default: []
+        items:
+          $ref: "#/definitions/Period"
+      appointment:
+        $ref: "#/definitions/Period"
+        description: "If given indicates that this HCP location must be seen at this time"
+      numTotalVisits:
+        type: "integer"
+        description: "If given, indicates the number of total visits. Used to indicate that a doctor should be visited more than once"
+      minVisitGapDays:
+        type: "integer"
+        description: "Used in conjection with numTotalVisits. The number of 24 hour periods between visits."
+      visitTimeSeconds:
+        type: "integer"
+        description: "The number of seconds to spend at this location. Defaults to 1200 seconds (20 minutes)"
+        default: 1200
+      skipCostMultiplier:
+        type: "number"
+        description: >
+          The multiplier for this location's skip cost which is used by the disjunctive equation to determine which
+          locations to omit when over capacity. This value is used as a linear multiplier of the disjunctive cost, so
+          a location with 2 is two times worse to skip (higher priority) and a location with 0.5 is half as bad to skip
+          as a normal location which has an implicit multiplier of 1.
+        format: "float"
+        minimum: 0
+        maximum: 1000
+      isRequired:
+        type: "boolean"
+        description: "Specify that this location is required"
+  Period:
+    type: "object"
+    description: "A time period"
+    required:
+      - "start"
+      - "end"
+    properties:
+      start:
+        type: "integer"
+        description: "Start time of the period based on epoch millis. Inclusive."
+        example: 1514782800000
+      end:
+        type: "integer"
+        description: "End time of the period based on epoch millis. Exclusive."
+        example: 1514782800000
+  WorkPeriod:
+    type: "object"
+    description: "A work period with time and locations"
+    required:
+    - "start"
+    - "end"
+    - "startLocation"
+    - "endLocation"
+    properties:
+      start:
+        type: "integer"
+        description: "Start time of the period based on epoch millis. Inclusive."
+        example: 1514782800000
+      end:
+        type: "integer"
+        description: "End time of the period based on epoch millis. Exclusive."
+        example: 1514782800000
+      startLocation:
+        type: "string"
+        description: "A unique identifier for the starting location. If a location is included as a start or end location here it is not visited during normal visits."
+      endLocation:
+        type: "string"
+        description: "A unique identifier for the ending location. If a location is included as a start or end location here it is not visited during normal visits."
+  DistancePair:
+    type: "object"
+    required:
+      - "originId"
+      - "destId"
+      - "distance"
+    properties:
+      originId:
+        type: "string"
+        description: "Unique identifier for origin location"
+      destId:
+        type: "string"
+        description: "Unique identifier for destination location"
+      distance:
+        type: "integer"
+        description: "Distance between two points. Currently represents seconds in travel time."
+  RouteParams:
+    type: "object"
+    required:
+      - startLocation
+      - locations
+      - distances
+      - workPeriods
+    properties:
+      startLocation:
+        type: "object"
+        description: "The starting point for the route planning. Either address or lat, lon are required."
+        required:
+          - "name"
+        properties:
+          name:
+            type: "string"
+            example: "Rep Name"
+          address:
+            type: "string"
+            description: "Address as used by postal service"
+            example: "900 Madison St, Hewlett Neck, NY"
+          lat:
+            type: "number"
+            format: "float"
+            example: 40.624505
+          lon:
+            type: "number"
+            format: "float"
+            example: -73.697592
+      locations:
+        type: "array"
+        items:
+          $ref: "#/definitions/Location"
+      distances:
+        type: "array"
+        items:
+          $ref: "#/definitions/DistancePair"
+      solutionName:
+        type: "string"
+        description: "Name for the solution"
+        example: "Rep Carl's Solution"
+      lunchStartHour:
+        type: "integer"
+        description: "Hour lunch starts each day, based on 24 hour clock"
+        default: 12
+        example: 12
+      lunchMinutes:
+        type: "integer"
+        description: "The number of minutes to spend at lunch"
+        default: 0
+        example: 60
+      workPeriods:
+        type: "array"
+        description: "A list of periods of work times. Times not included are time off."
+        items:
+          $ref: "#/definitions/WorkPeriod"
+      maxRunMillis:
+        type: "integer"
+        format: "int64"
+        description: "Maximum amount of milliseconds to run the route planning"
+        default: 10000
+        example: 10000
+  RouteResult:
+    type: "object"
+    properties:
+      route:
+        type: "array"
+        items:
+          $ref: "#/definitions/Location"
+      metrics:
+        type: "object"
+        additionalProperties: true
+        example:
+          doctorsVisited: 10
+          candidateDoctors: 10
+          travelTime: 5486
+          avgTravelTime: 5486
+          runningTime: 40.89
+      unroutedLocationIDs:
+        type: "array"
+        description: "A list of the location ids for any locations that were not included in the route"
+        items:
+          type: "string"

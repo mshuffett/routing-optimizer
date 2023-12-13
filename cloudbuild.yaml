@@ -1,0 +1,12 @@
+timeout: 1200s
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args:
+  - 'build'
+  - '-t'
+  - 'gcr.io/phocus-pilot/optimizer:$BRANCH_NAME'
+  - './optimizer'
+images:
+- 'gcr.io/phocus-pilot/optimizer:$BRANCH_NAME'
+options:
+  machineType: 'N1_HIGHCPU_8'

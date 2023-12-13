@@ -1,0 +1,78 @@
+{
+  "distances": [
+    {
+      "destId": "start",
+      "distance": 0,
+      "originId": "start"
+    },
+    {
+      "destId": "start",
+      "distance": 10,
+      "originId": "loc-1"
+    },
+    {
+      "destId": "loc-1",
+      "distance": 10,
+      "originId": "start"
+    },
+    {
+      "destId": "loc-1",
+      "distance": 0,
+      "originId": "loc-1"
+    }
+  ],
+  "locations": [
+    {
+      "address": "379 Oakwood Rd, Huntington Station, New York",
+      "lat": 40.8401718,
+      "lon": -73.4302677,
+      "name": "Susan Condreras",
+      "numTotalVisits": 2,
+      "minVisitGapDays": 1,
+      "openTimes": [
+        {
+          "start": 1514797200000,
+          "end": 1514998800000
+        }
+      ],
+      "id": "loc-1"
+    },
+    {
+      "address": "900 Madison St, Hewlett Neck, NY",
+      "lat": 40.624505,
+      "lon": -73.697592,
+      "name": "Rep Name",
+      "id": "start"
+    }
+  ],
+  "lunchMinutes": 60,
+  "lunchStartHour": 12,
+  "maxRunMillis": 1000,
+  "solutionName": "Rep Carl's Solution",
+  "workPeriods": [
+    {
+      "start": 1514797200000,
+      "end": 1514826000000,
+      "startLocation": "start",
+      "endLocation": "start"
+    },
+    {
+      "start": 1514883600000,
+      "end": 1514912400000,
+      "startLocation": "start",
+      "endLocation": "start"
+    },
+    {
+      "start": 1514970000000,
+      "end": 1514998800000,
+      "startLocation": "start",
+      "endLocation": "start"
+    },
+    {
+      "start": 1515056400000,
+      "end": 1515085200000,
+      "startLocation": "start",
+      "endLocation": "start"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "model_name": "Rep Carl's Solution",
+  "run_datetime": "2019-01-16T15:27:21",
+  "route": [
+    {
+      "is_duplicate_origin": false,
+      "is_repeat": false,
+      "state": null,
+      "city": null,
+      "doctor_name": "Susan Condreras",
+      "address": "379 Oakwood Rd, Huntington Station, New York",
+      "lat": 40.8401718,
+      "lon": -73.4302677,
+      "id": "loc-1",
+      "visit_time_seconds": 0,
+      "arrival_time": "2018-01-01T09:00:00+00:00",
+      "end_time": "2018-01-01T09:00:00+00:00"
+    },
+    {
+      "is_duplicate_origin": false,
+      "is_repeat": false,
+      "state": null,
+      "city": null,
+      "doctor_name": "fake origin",
+      "address": "fake origin",
+      "lat": "fake origin",
+      "lon": "fake origin",
+      "id": 

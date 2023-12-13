@@ -1,0 +1,82 @@
+{
+  "model_name": "Rep Carl's Solution",
+  "run_datetime": "2019-01-16T15:28:01",
+  "route": [
+    {
+      "is_duplicate_origin": false,
+      "is_repeat": false,
+      "state": null,
+      "city": null,
+      "doctor_name": "Susan Condreras",
+      "address": "379 Oakwood Rd, Huntington Station, New York",
+      "lat": 40.8401718,
+      "lon": -73.4302677,
+      "id": "loc-1",
+      "visit_time_seconds": 0,
+      "arrival_time": "2018-01-01T09:00:00+00:00",
+      "end_time": "2018-01-01T09:00:00+00:00"
+    },
+    {
+      "is_duplicate_origin": false,
+      "is_repeat": false,
+      "state": null,
+      "city": null,
+      "doctor_name": "fake origin",
+      "address": "fake origin",
+      "lat": "fake origin",
+      "lon": "fake origin",
+      "id": "5dd48ee2-19e6-11e9-98d0-7a007432e301",
+      "arrival_time": "2018-01-01T09:00:00+00:00",
+      "end_time": "2018-01-01T09:20:00+00:00",
+      "travel_to_time": 0
+    },
+    {
+      "is_duplicate_origin": false,
+      "is_repeat": false,
+      "state": null,
+      "city": null,
+      "doctor_name": "Rep Name",
+      "address": "900 Madison St, Hewlett Neck, NY",
+      "lat": 40.624505,
+      "lon": -73.697592,
+      "id": "start",
+      "visit_time_seconds": 0,
+      "arrival_time": "2018-01-01T09:20:00+00:00",
+      "end_time": "2018-01-01T09:20:00+00:00",
+      "travel_to_time": 0
+    },
+    {
+      "is_duplicate_origin": true,
+      "is_repeat": false,
+      "state": null,
+      "city": null,
+      "doctor_name": "Susan Condreras",
+      "address": "379 Oakwood Rd, Huntington Station, New York",
+      "lat": 40.8401718,
+      "lon": -73.4302677,
+      "id": "loc-1",
+      "visit_time_seconds": 0,
+      "arrival_time": "2018-01-01T17:00:00+00:00",
+      "end_time": "2018-01-01T17:00:00+00:00",
+      "travel_to_time": 0
+    }
+  ],
+  "metrics": {
+    "num_work_periods": 1,
+    "first_solution_strategy": "PARALLEL_CHEAPEST_INSERTION",
+    "search_meta_heuristic": "GUIDED_LOCAL_SEARCH",
+    "doctors_visited": 0,
+    "candidate_doctors": 0,
+    "total_travel_time": 0,
+    "avg_travel_time": 0.0,
+    "total_visit_time": 1200,
+    "total_work_time": 28800,
+    "total_idle_time": 27600,
+    "objective_costs": {
+      "travel": 0,
+      "disjunctive": 0,
+      "total": 0
+    },
+    "running_time": 0.009325311999418773
+  }
+}
